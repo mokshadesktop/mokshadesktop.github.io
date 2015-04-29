@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+This will be the website for the Moksha Desktop. 
 
-### More Information
+### Contact us
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
+[Bodhilinux.com](http://www.bodhilinux.com)
+[jeff@bodhilinux.com](mailto:jeff@bodhilinux.com)
+[joris@bodhilinux.com](mailto:joris@jorisvandijk.com) - Website related inquiries 
 [email@domain.com](mailto:email@domain.com)
