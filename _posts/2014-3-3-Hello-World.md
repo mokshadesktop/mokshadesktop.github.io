@@ -1,10 +1,29 @@
 ---
 layout: post
-title: You're up and running!
+title: Introducing Moksha Desktop
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+<p>The question everyone is going to ask is:</p>
+<h2 style="text-align: center"><strong>Why does this need to exist?</strong></h2>
+<p>To understand why, you need to understand where Bodhi has come from as a project. Bodhi has always been a project based around the <a href="https://www.enlightenment.org/">Enlightenment desktop</a>.</p>
+<p>The Enlightenment desktop however has changed a lot over the last few years. It went from being the “Duke Nukem Forever” of open source software without an official release in over a decade to having <strong>three</strong> new “major” versions released in the course of the last three years.</p>
+<p>The problem with these major releases is that instead of continuing to perfect the end user facing components E17 started over the course of a decade, they were essentially internal tear downs. While optimizations are a good thing to be had, optimizations that break existing features users enjoy and use are bad. These tear downs were rushed to meet release deadlines and did not have the same quality and stability the E17 desktop had come to know.</p>
+<p>The E18 desktop was so bad Bodhi skipped it entirely (although you can still find old packages in the <a href="http://packages.bodhilinux.com/bodhi/pool/testing/e/">2.4.0 testing branch</a>). When E19 <a href="https://phab.enlightenment.org/phame/live/3/post/e19_release/">released in the fall of 2014</a> it <i>did</i> make things better, but that was not difficult considering the mess E18 was.</p>
+<p>E19 was usable enough that I gave it an honest try. I spent hours working with the upstream developers and filing bug reports. The biggest issue was that <strong>almost</strong> <strong>none of the Enlightenment developers were using E19 as their daily desktop</strong>. As soon as it was released they jumped on to their next rewrite &#8211; E20.</p>
+<p>After my umpteeth bug report was met with “Works with E from Git” I was ready to call it quits. In fact for several months I did <a href="http://jeffhoogland.blogspot.com/2014/09/stepping-down-from-bodhi-linux-lead.html">essentially quit</a>. I was so frustrated I stepped away from the project I had devoted countless hours to over four years.</p>
+<p>After coming back with a breath of fresh air at the start of 2015, I put aside my personal thoughts about E19 and pushed out the Bodhi 3.0.0 release that uses E19 as its “default” desktop today. However, we did not just offer the E19 desktop, our “Legacy” image targeted at old computers still used the E17 desktop. The reason for this is because E19 was no longer as lightweight and it performed very poorly on older hardware.</p>
+<p>On top of the performance issues, E19 did not allow for me personally to have the same workflow I enjoyed under E17 due to features it no longer had. Because of this I had changed to using the E17 on all of my Bodhi 3 computers &#8211; even my high end ones. This got me to thinking how many of our existing Bodhi users felt the same way, so I <a href="http://forums.bodhilinux.com/index.php?/topic/12322-e17-vs-e19-which-are-you-using-and-why/">opened a discussion about it on our user forums</a>.</p>
+<p>I found many felt similar to how I did. So that left only one question: What was to be done about it? After much reflection, I came to the same conclusion others had before me that lead to the creation of the <a href="http://www.mate-desktop.org/">Mate</a> and <a href="https://www.trinitydesktop.org/">Trinity</a> desktops &#8211; fork it.</p>
+<p>&nbsp;</p>
+<p>So that brings us to the second question people are sure to have:</p>
+<h2 style="text-align: center"><strong>What is Moksha?</strong></h2>
+<p>Well, the word “Moksha” (pronounced “mohk-shuh”) is Sanskrit in origin just like Bodhi. It means “emancipation, liberation, or release”. When I was searching for a name it seemed fitting since we are striking out on our own.</p>
+<p>As a software project Moksha will be a continuation of the E17 desktop. We will start by integrating all of the Bodhi changes we have simply been patching into the source code over the years and fixing the few issues the desktop has. Once this is done we will begin back porting a few of the more useful features E18 and E19 introduced to the Enlightenment desktop and finally, we will introduce a few new things we think will improve the end user experience.</p>
+<p>You can track Moksha progress, contribute code, and file bug reports on GitHub <a href="https://github.com/JeffHoogland/moksha">here</a>.</p>
+<p>&nbsp;</p>
+<p>That brings us to the last question I am going to field in this post today:</p>
+<h2 style="text-align: center"><strong>Where does that leave Bodhi and the Enlightenment desktop?</strong></h2>
+<p>Obviously Bodhi 3.0.0 uses the E19 desktop and we will not be releasing a new ISO image that changes this. Users who are content with the E19 desktop should continue to use it and we will continue to package updates for the desktop and push them into the Bodhi repository. We will also continue to provide the latest Enlightenment Foundation Libraries and Elementary binaries as Moksha still depends on these.</p>
+<p>The first update release to Bodhi 3 will be 3.1.0, which is targeted for a release in August of this year. This release will use the E17 based Moksha desktop across all of its default ISO images. This will allow us to provide a uniform end user experience across all of our versions instead of having a differentiation between the “standard” and “legacy” releases. We will continue to provide the latest E19 desktop in our repositories for those who prefer it.</p>
+<p>This is a big step for the Bodhi project. Only time will tell if it is a good one or a bad one. If you are a developer interested in getting involved with this project, please let us know by joining our <a href="forums.bodhilinux.com">user forums</a> or dropping an email to Jeff at BodhiLinux dot com. Also remember that in a little over two weeks we will be sending out a Chromebook to a <a href="http://www.bodhilinux.com/2015/03/05/bodhi-linux-powered-acer-c720-chromebook-give-away/">Bodhi contributor</a>, so this is a great time to get involved with the project!</p>
+<p>~Jeff Hoogland</p>
