@@ -4,11 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This will be the website for the Moksha Desktop. 
+This project is currently in the very early stages of development. More information will be added as it becomes available. 
 
-### Contact us
+[GitHub](https://github.com/JeffHoogland/moksha)<br />
+[Bodhilinux.com](http://www.bodhilinux.com)<br />
 
-[Bodhilinux.com](http://www.bodhilinux.com)
-[jeff@bodhilinux.com](mailto:jeff@bodhilinux.com)
-[joris@bodhilinux.com](mailto:joris@jorisvandijk.com) - Website related inquiries 
-[email@domain.com](mailto:email@domain.com)
